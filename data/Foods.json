@@ -1,0 +1,95 @@
+{
+	"foods": [
+		{
+			"id": "1",
+			"foodItem": "Chicken Burger",
+			"category": "Burger",
+			"price": 50,
+			"image": "https://www.recipetineats.com/wp-content/uploads/2023/09/Crispy-fried-chicken-burgers_5.jpg"
+		},
+		{
+			"id": "2",
+			"foodItem": "Veg Burger",
+			"category": "Burger",
+			"price": 40,
+			"image": "https://www.vegrecipesofindia.com/wp-content/uploads/2020/12/burger-recipe-1.jpg"
+		},
+		{
+			"id": "3",
+			"foodItem": "Veg Hakka Noodles",
+			"category": "Noodles",
+			"price": 70,
+			"image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/hakka-noodles-recipe.jpg"
+		},
+		{
+			"id": "4",
+			"foodItem": "Egg Hakka Noodles",
+			"category": "Noodles",
+			"price": 80,
+			"image": "https://theyummydelights.com/wp-content/uploads/2021/04/egg-hakka-noodles-5-1.jpg"
+		},
+		{
+			"id": "5",
+			"foodItem": "Chicken Hakka Noodles",
+			"price": 100,
+			"category": "Noodles",
+			"image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/06/Spicy-Chicken-Hakka-Noodles-Recipe.jpg"
+		},
+		{
+			"id": "6",
+			"foodItem": "Aloo Biriyani",
+			"price": 100,
+			"category": "Biriyani",
+			"image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/07/aloo-biryani.jpg"
+		},
+		{
+			"id": "7",
+			"foodItem": "Egg Biriyani",
+			"price": 120,
+			"category": "Biriyani",
+			"image": "https://spicecravings.com/wp-content/uploads/2020/10/Egg-Biryani-Featured-1.jpg"
+		},
+		{
+			"id": "8",
+			"foodItem": "Chicken Biriyani",
+			"price": 150,
+			"category": "Biriyani",
+			"image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/12/chicken-biryani.jpg.webp"
+		},
+		{
+			"id": "9",
+			"foodItem": "Mutton Biriyani",
+			"price": 200,
+			"category": "Biriyani",
+			"image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2019/02/mutton-biryani-recipe-500x500.jpg"
+		},
+		{
+			"id": "10",
+			"foodItem": "Cheez Pizza",
+			"price": 150,
+			"category": "Pizza",
+			"image": "https://www.recipetineats.com/wp-content/uploads/2023/05/Garlic-cheese-pizza_9.jpg?w=900"
+		},
+		{
+			"id": "11",
+			"foodItem": "Chaiken Pizza",
+			"price": 180,
+			"category": "Pizza",
+			"image": "https://thecozycook.com/wp-content/uploads/2023/08/Buffalo-Chicken-Pizza-f-500x500.jpg"
+		},
+		{
+			"id": "12",
+			"foodItem": "Chicken Sandwich",
+			"price": 100,
+			"category": "Sandwich",
+			"image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/mayo-chicken-sandwich-recipe.jpg"
+		},
+		{
+			"id": "13",
+			"foodItem": "Veg Sandwich",
+			"price": 80,
+			"category": "Sandwich",
+			"image": "https://www.vegrecipesofindia.com/wp-content/uploads/2021/06/sandwich-recipe-1.jpg"
+		}
+	]
+}

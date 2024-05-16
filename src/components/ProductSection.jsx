@@ -31,10 +31,10 @@ export default function ProductSection() {
 				<h4 className="text-2xl my-3 font-extrabold">Filter Items</h4>
 				<div className="grid grid-cols-3 sm:flex gap-3 font-bold">
 					<button
-						className={`rounded-full border-2 border-orange-500 px-3 py-1 ${
+						className={`rounded-full border-2 border-orange-500 px-3 py-1 transition-all duration-300 ${
 							category === "all"
 								? "bg-orange-500 text-white"
-								: "text-orange-500"
+								: "text-orange-500 hover:bg-orange-100"
 						}`}
 						onClick={() => {
 							setData(foods);
@@ -44,10 +44,10 @@ export default function ProductSection() {
 						All
 					</button>
 					<button
-						className={`rounded-full border-2 border-orange-500 px-3 py-1 ${
+						className={`rounded-full border-2 border-orange-500 px-3 py-1 transition-all duration-300 ${
 							category === "burger"
 								? "bg-orange-500 text-white"
-								: "text-orange-500"
+								: "text-orange-500 hover:bg-orange-100"
 						}`}
 						onClick={() => {
 							filterItem("Burger");
@@ -57,10 +57,10 @@ export default function ProductSection() {
 						Burger
 					</button>
 					<button
-						className={`rounded-full border-2 border-orange-500 px-3 py-1 ${
+						className={`rounded-full border-2 border-orange-500 px-3 py-1 transition-all duration-300 ${
 							category === "noodles"
 								? "bg-orange-500 text-white"
-								: "text-orange-500"
+								: "text-orange-500 hover:bg-orange-100"
 						}`}
 						onClick={() => {
 							filterItem("Noodles");
@@ -70,10 +70,10 @@ export default function ProductSection() {
 						Noodles
 					</button>
 					<button
-						className={`rounded-full border-2 border-orange-500 px-3 py-1 ${
+						className={`rounded-full border-2 border-orange-500 px-3 py-1 transition-all duration-300 ${
 							category === "biriyani"
 								? "bg-orange-500 text-white"
-								: "text-orange-500"
+								: "text-orange-500 hover:bg-orange-100"
 						}`}
 						onClick={() => {
 							filterItem("Biriyani");
@@ -83,10 +83,10 @@ export default function ProductSection() {
 						Biriyani
 					</button>
 					<button
-						className={`rounded-full border-2 border-orange-500 px-3 py-1 ${
+						className={`rounded-full border-2 border-orange-500 px-3 py-1 transition-all duration-300 ${
 							category === "pizza"
 								? "bg-orange-500 text-white"
-								: "text-orange-500"
+								: "text-orange-500 hover:bg-orange-100"
 						}`}
 						onClick={() => {
 							filterItem("Pizza");
@@ -96,10 +96,10 @@ export default function ProductSection() {
 						Pizza
 					</button>
 					<button
-						className={`rounded-full border-2 border-orange-500 px-3 py-1 ${
+						className={`rounded-full border-2 border-orange-500 px-3 py-1 transition-all duration-300 ${
 							category === "sandwich"
 								? "bg-orange-500 text-white"
-								: "text-orange-500"
+								: "text-orange-500 hover:bg-orange-100"
 						}`}
 						onClick={() => {
 							filterItem("Sandwich");
